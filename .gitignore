@@ -4,6 +4,7 @@
 *mergers_rev.tsv
 **/multiLevel_lvl_1_infomap_overlap_epo_*.csv
 **/multiLevel_lvl_2_infomap_overlap_epo_*.csv
+**/ltla_residual_epo_*.tsv
 ltla_peak_mid_dec_ref_all_ltlas_thres_0.85.csv
 master_final_re-scaled_cases_20210901_20220228.csv
 sampling_residuals.ipynb
