@@ -1,8 +1,8 @@
 # Dataset for multi-epoch GLM
 #### CURRENT epochs definitions: <br />
-**Epoch-1**: [estimated date of importation (MCC), 2021-12-25]<br />
-**Epoch-2**: [2021-12-26, 2022-01-15]<br />
-**Epoch-3**: [2022-01-16, 2022-01-31]
+**Epoch-1**:	[estimated date of importation (MCC), 2021-12-25]<br />
+**Epoch-2**:	[2021-12-26, 2022-01-15]<br />
+**Epoch-3**:	[2022-01-16, 2022-01-31]
 
 #### Transmission-lineages (from largest to smallest)
 1. BA.1.17_DTA_175_n11351
