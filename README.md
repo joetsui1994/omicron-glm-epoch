@@ -62,6 +62,13 @@ A table containing tip-specific information, i.e. LTLA from which the genome was
 
 - **ltla_region.tsv**<br />
 A table for mapping each LTLA to its corresponding region.
+```
+ltla	NE	NW	YH	EM	WM	SW	E	SE	L
+E06000018	0	0	0	1	0	0	0	0	0
+E09000023	0	0	0	0	0	0	0	0	1
+E09000022	0	0	0	0	0	0	0	0	1
+...
+```
 
 - **ltla_pop.tsv**<br />
 A table containing population size (from 2020 mid-year estimate by ONS) of each LTLA (after aggregation).
