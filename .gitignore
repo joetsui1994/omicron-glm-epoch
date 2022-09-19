@@ -1,5 +1,6 @@
 *.ipynb
 *.tre
+*.ipynb_checkpoints
 **/mergers_rev.tsv
 **/multiLevel_lvl_1_infomap_overlap_epo_*.csv
 **/multiLevel_lvl_2_infomap_overlap_epo_*.csv
