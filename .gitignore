@@ -1,7 +1,7 @@
 *.ipynb
 *.tre
 *.ipynb_checkpoints
-**/mergers_rev.tsv
+*mergers_rev.tsv
 **/multiLevel_lvl_1_infomap_overlap_epo_*.csv
 **/multiLevel_lvl_2_infomap_overlap_epo_*.csv
 ltla_peak_mid_dec_ref_all_ltlas_thres_0.85.csv
