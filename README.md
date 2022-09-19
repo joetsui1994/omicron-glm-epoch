@@ -20,13 +20,13 @@
 ## Directory Layout
 ```
 	.
-	├── BA.1_DTA_1207_n9727
-	├── BA.1_DTA_1800_n944
-	├── BA.1.1_DTA_1254_n2249
-	├── BA.1.1_DTA_1467_n722
-	├── BA.1.15_DTA_102_n2975
-	├── BA.1.15_DTA_700_n713
-	├── BA.1.17_DTA_175_n11351
+	├── BA.1_DTA_1207_n9727/
+	├── BA.1_DTA_1800_n944/
+	├── BA.1.1_DTA_1254_n2249/
+	├── BA.1.1_DTA_1467_n722/
+	├── BA.1.15_DTA_102_n2975/
+	├── BA.1.15_DTA_700_n713/
+	├── BA.1.17_DTA_175_n11351/
 	└── BA.1_DTA_1944_n1406
 	   ├── betweenness_centralities
 	   │   ├── ltla_betweenCentral_epo_1.tsv
