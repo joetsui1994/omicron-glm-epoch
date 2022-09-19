@@ -61,9 +61,9 @@
 A table containing tip-specific information, i.e. LTLA from which the genome was sampled (after aggregation), collection date and corresponding epoch.
 
 - **ltla_region.tsv**<br />
-A table for mapping each LTLA to its corresponding region.
+A matrix for mapping each LTLA to its corresponding region.
 ```
-ltla	NE	NW	YH	EM	WM	SW	E	SE	L
+ltla		NE	NW	YH	EM	WM	SW	E	SE	L
 E06000018	0	0	0	1	0	0	0	0	0
 E09000023	0	0	0	0	0	0	0	0	1
 E09000022	0	0	0	0	0	0	0	0	1
