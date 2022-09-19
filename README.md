@@ -5,6 +5,7 @@ CURRENT epochs definitions:
 ##Epoch-3##: [2022-01-16, 2022-01-31]
 
 ## Directory Layout
+```
 ├── BA.1_DTA_1207_n9727
 ├── BA.1_DTA_1800_n944
 ├── BA.1.1_DTA_1254_n2249
@@ -49,4 +50,5 @@ CURRENT epochs definitions:
    │   ├── mobility_matrix_epo_2.csv
    │   └── mobility_matrix_epo_3.csv
    └── tip_ltla_date_epo.tsv
+```
 
