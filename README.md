@@ -15,7 +15,7 @@
 8. BA.1.15_DTA_700_n713
 
 #### Distribution of genome samples
-<img src="https://github.com/joetsui1994/omicron-glm-epoch/blob/main/sept19_epoch_glm_TL_sample_counts.png" width="500">
+<img src="https://github.com/joetsui1994/omicron-glm-epoch/blob/main/sept19_epoch_glm_TL_sample_counts.png" width="700">
 
 ## Directory Layout
 ```
