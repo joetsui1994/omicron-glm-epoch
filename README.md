@@ -27,7 +27,7 @@
 	├── BA.1.15_DTA_102_n2975
 	├── BA.1.15_DTA_700_n713
 	├── BA.1.17_DTA_175_n11351
-	├── BA.1_DTA_1944_n1406
+	└── BA.1_DTA_1944_n1406
 	   ├── betweenness_centralities
 	   │   ├── ltla_betweenCentral_epo_1.tsv
 	   │   ├── ltla_betweenCentral_epo_2.tsv
@@ -85,21 +85,21 @@ A table containing the LAT/LONG coordinate of the centroid of each LTLA (after a
 - **grtCircle_distance.tsv**<br />
 A distance matrix where each element corresponds to the great circle distance (in km) between two LTLAs calculated using the Haversine formula (after LTLA aggregation).
 
-- **mobility_matrix_epo_n.csv**<br />
+- **mobility_matrix_epo_n.csv** [n=1,2,3]<br />
 A symmetric matrix where each element corresponds to the estimated weekly number of trips taken between the origin and destination LTLA, averaged over the corresponding epoch. Diagonal elements are taken to be 0. Off-diagonal elements that are zero are given a pseudo count of 0.001. Elements corresponding to trips involving at least one LTLA with no available mobility data are encoded as NA’s.
 
-- **ltla_eigenCentral_epo_n.tsv**<br />
+- **ltla_eigenCentral_epo_n.tsv** [n=1,2,3]<br />
 A table containing the eigenvector centrality measure of each LTLA calculated from an undirected mobility network averaged over the corresponding epoch.
 
-- **ltla_betweenCentral_epo_n.tsv**<br />
+- **ltla_betweenCentral_epo_n.tsv** [n=1,2,3]<br />
 A table containing the betweenness centrality measure of each LTLA calculated from an undirected mobility network averaged over the corresponding epoch. A pseudo count of 1e-6 is used for LTLAs with zero betweenness centrality.
 
-- **multiLevel_lvl_1_infomap_overlap_NA_epo_n.csv**<br />
+- **multiLevel_lvl_1_infomap_overlap_NA_epo_n.csv** [n=1,2,3]<br />
 A symmetric matrix where each element is either “1” or “0” indicating whether the origin and destination LTLAs belong to the same community, as identified using the Infomap algorithm (a community detection algorithm by which each LTLA is assigned a community according to the multi-level solutions at level-1 clustering) applied to an undirected mobility network averaged over the corresponding epoch. Elements corresponding to LTLA pairs where at least one of which has no available mobility data are encoded as NA’s. 
 
-- **multiLevel_lvl_2_infomap_overlap_NA_epo_n.csv**<br />
+- **multiLevel_lvl_2_infomap_overlap_NA_epo_n.csv** [n=1,2,3]<br />
 A symmetric matrix where each element is either “1” or “0” indicating whether the origin and destination LTLAs belong to the same community, as identified using the Infomap algorithm (a community detection algorithm by which each LTLA is assigned a community according to the multi-level solutions at level-2 clustering) applied to an undirected mobility network averaged over the corresponding epoch. Elements corresponding to LTLA pairs where at least one of which has no available mobility data are encoded as NA’s. 
 
-- **ltla_residual_epo_n.tsv**<br />
+- **ltla_residual_epo_n.tsv** [n=1,2,3]<br />
 A table containing the residuals from a simple linear regression between the number of genome samples (TL-specific) from each LTLA and the estimated cumulative number of Omicron BA.1 cases in that LTLA during the corresponding epoch. A positive constant is added to each residual to allow log-transformation.
 
