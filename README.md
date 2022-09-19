@@ -1,10 +1,10 @@
 # Dataset for multi-epoch GLM
-CURRENT epochs definitions:
-**Epoch-1**: [estimated date of importation (MCC), 2021-12-25]
-**Epoch-2**: [2021-12-26, 2022-01-15]
+CURRENT epochs definitions: <br />
+**Epoch-1**: [estimated date of importation (MCC), 2021-12-25]<br />
+**Epoch-2**: [2021-12-26, 2022-01-15]<br />
 **Epoch-3**: [2022-01-16, 2022-01-31]
 
-###Transmission-lineages (from largest to smallest)
+### Transmission-lineages (from largest to smallest)
 1. BA.1.17_DTA_175_n11351
 2. BA.1_DTA_1207_n9727
 3. BA.1.15_DTA_102_n2975
@@ -57,7 +57,7 @@ CURRENT epochs definitions:
 	   └── tip_ltla_date_epo.tsv
 ```
 
-- **tip_ltla_date_epo.tsv**
+- **tip_ltla_date_epo.tsv**<br />
 A table containing tip-specific information, i.e. LTLA from which the genome was sampled (after aggregation), collection date and corresponding epoch.
 
 - **ltla_region.tsv**
