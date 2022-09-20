@@ -100,6 +100,9 @@ A symmetric matrix where each element is either “1” or “0” indicating wh
 - **multiLevel_lvl_2_infomap_overlap_NA_epo_n.csv** [n=1,2,3]<br />
 A symmetric matrix where each element is either “1” or “0” indicating whether the origin and destination LTLAs belong to the same community, as identified using the Infomap algorithm (a community detection algorithm by which each LTLA is assigned a community according to the multi-level solutions at level-2 clustering) applied to an undirected mobility network averaged over the corresponding epoch. Elements corresponding to LTLA pairs where at least one of which has no available mobility data are encoded as NA’s. 
 
-- **ltla_residual_epo_n.tsv** [n=1,2,3]<br />
+- **ltla_residual_pos_epo_n.tsv** [n=1,2,3]<br />
 A table containing the residuals from a simple linear regression between the number of genome samples (TL-specific) from each LTLA and the estimated cumulative number of Omicron BA.1 cases in that LTLA during the corresponding epoch. A positive constant is added to each residual to allow log-transformation.
+
+- **ltla_residual_pos_const.tsv**
+A table containing the residuals from a simple linear regression between the number of genome samples (TL-specific) from each LTLA and the estimated cumulative number of Omicron BA.1 cases in that LTLA during the whole study period from 2021-11-28 up to 2022-01-31. The starting cut-off of 2021-11-28 was chosen to be consistent with the cut-off date of most of the statistical analyses, and also because there is substantial uncertainty in the estimated number of Omicron BA.1 cases prior to the cut-off due to slow SGTF test uptake. A positive constant is added to each residual to allow log-transformation.
 
