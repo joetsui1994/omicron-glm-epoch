@@ -5,14 +5,14 @@
 **Epoch-3**:	[2022-01-16, 2022-01-31]
 
 #### Transmission-lineages (from largest to smallest)
-1. BA.1.17_DTA_175_n11351
-2. BA.1_DTA_1207_n9727
-3. BA.1.15_DTA_102_n2975
-4. BA.1.1_DTA_1254_n2249
-5. BA.1_DTA_1944_n1406
-6. BA.1_DTA_1800_n944
-7. BA.1.1_DTA_1467_n722
-8. BA.1.15_DTA_700_n713
+1. BA.1.17_DTA_175_n11351 (estimated importation date: 2021-11-12 [2021-11-11, 2021-11-13])
+2. BA.1_DTA_1207_n9727 (estimated importation date: 2021-11-13 [2021-11-12, 2021-11-14])
+3. BA.1.15_DTA_102_n2975 (estimated importation date: 2021-11-22 [2021-11-21, 2021-11-22])
+4. BA.1.1_DTA_1254_n2249 (estimated importation date: 2021-11-26 [2021-11-23, 2021-11-30])
+5. BA.1_DTA_1944_n1406 (estimated importation date: 2021-11-11 [2021-11-05, 2021-11-18])
+6. BA.1_DTA_1800_n944 (estimated importation date: 2021-11-18 [2021-11-17, 2021-11-20])
+7. BA.1.1_DTA_1467_n722 (estimated importation date: 2021-11-26 [2021-11-23, 2021-11-30])
+8. BA.1.15_DTA_700_n713 (estimated importation date: 2021-11-18 [2021-11-17, 2021-11-18])
 
 #### Distribution of genome samples
 <img src="https://github.com/joetsui1994/omicron-glm-epoch/blob/main/sept19_epoch_glm_TL_sample_counts.png" width="700">
